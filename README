@@ -1,0 +1,16 @@
+PURPOSE
+=======
+
+TubeCrawler is a simple python script that collects 
+all YouTube video hrefs and titles from a given 
+channel.
+It helps displaying a list in CSV format for
+any purpose you have in mind.
+
+SCRAPY
+======
+
+TubeCrawler uses a python's lib called scrapy
+to do the crawling stuff. You may download it
+first simply doing a pip:
+pip install scrapy
