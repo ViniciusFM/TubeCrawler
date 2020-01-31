@@ -1,7 +1,7 @@
 PURPOSE
 =======
 
-TubeCrawler is a simple python script that collects 
+TubeCrawler is a simple python3 script that collects 
 all YouTube video hrefs and titles from a given 
 channel.
 It helps displaying a list in CSV format for
@@ -14,3 +14,18 @@ TubeCrawler uses a python's lib called scrapy
 to do the crawling stuff. You may download it
 first simply doing a pip:
 pip install scrapy
+
+USAGE
+=====
+
+USAGE: tubecrawler.py <channel_name> <output_file_name>
+
+NOT OPTIONAL ARGS:
+        channel_name: the exactly name of the channel (case sensitive)
+        output_file_name: the CSV output file name
+
+EXAMPLE:
+        tubecrawler.py foochannel /path/to/foochannellinks.csv
+
+        This line will output the video links from oldest to newest
+        from foochannel to file located at /path/to/foochannellinks.csv
